@@ -6,16 +6,14 @@
   - [Table of content](#table-of-content)
   - [Learning materials](#learning-materials)
   - [ML concepts](#ml-concepts)
-  - [Formula competition](#formula-competition)
+  - [Deep learning utils](#deep-learning-utils)
   - [Software](#software)
     - [Useful python modules](#useful-python-modules)
     - [Vscode extension](#vscode-extension)
     - [Cheatsheets](#cheatsheets)
   - [Hardware](#hardware)
-  - [State Estimation](#state-estimation)
     - [Kalman Filtering](#kalman-filtering)
-    - [Vehicle Dynamic Modeling](#vehicle-dynamic-modeling)
-  - [Usefull links](#usefull-links)
+  - [Useful links](#useful-links)
   - [Productivity](#productivity)
   - [Papers](#papers)
     - [RL](#rl)
@@ -51,11 +49,10 @@
 - [RMSprop](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a), RMSprop along with weight decay compromise ADAM optimizer
 - [Adam optimizer](https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c)
 
-## Formula competition
 
-- [Competition site](https://www.formulastudent.de/fsg/)
-- [Rule book](FS-Rules_2020_V1.0.pdf)
-
+## Deep learning utils
+- [Uber Manifold](https://github.com/uber/manifold) for analyzing and comparing models, points to improve them and feature analysis.
+- [Weights & Biases](https://wandb.ai) An almost perfect tool for managing experiments, running hyper parameter sweeps and post training analysis.
 ## Software
 
 - [Vs code](https://code.visualstudio.com/) The best IDE for development. Extensions can be found [here](##Vscode-extension)
@@ -113,15 +110,11 @@
 ## Hardware
 - [Choosing a GPU for deep learning](https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/)
 
-## State Estimation
 ### Kalman Filtering
 - [Kalman Filters Videos](https://youtu.be/ul3u2yLPwU0)
 - Kalman Filters Matlab Example: ``` openExample('control/KalmanFilteringExample') ```
 
-### Vehicle Dynamic Modeling
-- Vehicle Dynamics System Matlab Example: ```openExample('ident/idnlgreydemo11') ```
-
-## Usefull links
+## Useful links
 - [Sphinx](http://www.sphinx-doc.org/en/master/index.html) - Framework for creating documentations
 
 ## Productivity
